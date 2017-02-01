@@ -19,8 +19,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/rollButton"
         android:onClick="rollDice"
-        android:layout_marginTop="145dp"
-        android:layout_below="@+id/rollResult"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/die2Image"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -33,4 +33,43 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="78dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/die_1"
+        android:id="@+id/die1Image"
+        android:layout_below="@+id/rollResult"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/die_1"
+        android:id="@+id/die2Image"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/rollResult"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/die_1"
+        android:id="@+id/die3Image"
+        android:layout_below="@+id/rollResult"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:text="Score 0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
 </RelativeLayout>

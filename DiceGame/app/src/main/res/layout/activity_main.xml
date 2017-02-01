@@ -32,10 +32,11 @@
         app:layout_anchorGravity="center_vertical|left"
         android:layout_gravity="bottom|right"
         android:adjustViewBounds="false"
-        android:foregroundTint="@android:color/white" />
+        android:foregroundTint="@android:color/white"
+        android:tint="@android:color/white" />
 
     <include layout="@layout/content_main"
         android:layout_width="match_parent"
-        android:layout_height="432dp" />
+        android:layout_height="566dp" />
 
 </android.support.design.widget.CoordinatorLayout>
