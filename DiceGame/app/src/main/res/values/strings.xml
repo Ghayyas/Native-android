@@ -2,4 +2,8 @@
     <string name="app_name">DiceGame</string>
     <string name="action_settings">Settings</string>
     <string name="scoreText">Score 0</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

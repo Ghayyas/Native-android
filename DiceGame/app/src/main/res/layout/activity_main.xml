@@ -21,6 +21,11 @@
             android:layout_weight="1" />
     </android.support.design.widget.AppBarLayout>
 
+    <include layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="566dp"
+        android:id="@+id/include" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="68dp"
@@ -29,14 +34,11 @@
         app:srcCompat="@android:drawable/ic_dialog_email"
         app:rippleColor="@android:color/holo_purple"
         app:backgroundTint="@android:color/holo_orange_light"
-        app:layout_anchorGravity="center_vertical|left"
-        android:layout_gravity="bottom|right"
+        android:layout_gravity="bottom|left"
         android:adjustViewBounds="false"
-        android:foregroundTint="@android:color/white"
-        android:tint="@android:color/white" />
-
-    <include layout="@layout/content_main"
-        android:layout_width="match_parent"
-        android:layout_height="566dp" />
+        android:foregroundTint="@android:color/holo_green_dark"
+        android:tint="@android:color/white"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="bottom|right" />
 
 </android.support.design.widget.CoordinatorLayout>
